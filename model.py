@@ -1,8 +1,8 @@
 from pydantic import BaseModel
 
-class Client(BaseModel):
-    name :str
-    phone_number : int
+class MemberInfo(BaseModel):
+    name: str
     berth : int
-    address : int
-    sex : int
+    address : str
+    email: str
+    message: str
