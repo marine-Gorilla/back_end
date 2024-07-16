@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
 import requests
 from model import MemberInfo
+import json
 
 app = FastAPI()
 
